@@ -1,0 +1,26 @@
+{
+  "scraping": {
+    "static_html": true,
+    "javascript_rendering": false
+  },
+  "content_extraction": {
+    "headings": true,
+    "text": true,
+    "links": true,
+    "images": true,
+    "tables": false,
+    "lists": false
+  },
+  "interaction_depth": {
+    "scroll": true,
+    "pagination": true,
+    "click_simulation": false
+  },
+  "error_handling": {
+    "graceful_failures": true,
+    "partial_results": true
+  },
+  "frontend": {
+    "json_viewer": true
+  }
+}
